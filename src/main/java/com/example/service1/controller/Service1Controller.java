@@ -10,6 +10,10 @@ public class Service1Controller {
 
     @GetMapping("/")
     public String service1(){
-        return "service1 Page";
+        return "===Page1===";
+    }
+    @GetMapping("/view")
+    public String service(){
+        return "==Page1===의 service";
     }
 }
