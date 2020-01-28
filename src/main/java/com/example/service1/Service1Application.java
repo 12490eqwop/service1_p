@@ -58,7 +58,7 @@ public class Service1Application {
         HashMap map  = new HashMap();
         map.put("server.port",8101);
         //map.put("server.address", "192.168.1.155");
-        //map.put("server.servlet.context-path", "/service");
+       // map.put("server.servlet.context-path", "/service");
 
         SpringApplication sa = new SpringApplication(Service1Application.class);
         sa.setDefaultProperties(map);
